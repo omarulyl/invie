@@ -1,4 +1,10 @@
+
+body{
+	font-family: 'Allerta', sans-serif; /*google font allerta*/
+}
+
 .titulo{
+	font-family: 'Montserrat', sans-serif; /*google font montserrat*/
 	font-size: 70px;
 }
 
@@ -15,6 +21,7 @@
 }
 
 .guitarras h2{
+	font-family: 'Montserrat', sans-serif; /*google font montserrat*/
 	font-size: 35px;
 }
 
