@@ -1,3 +1,33 @@
+*{
+/*
+	-padding general-
+		padding: 10px;
+	-paddig por lados-
+		padding-top: 10px;
+		padding-left: 15px;
+		padding-right: 13px;
+		padding-bottom: 5px;
+	-paddig lados una sola linea-
+		padding: 10px 13px 5px 15px; 
+	*/
+	padding: 10px;
+
+/*	-margin general-
+		margin: 10px;
+	-margin por lados-
+		margin-top: 10px;
+		margin-left: 15px;
+		margin-right: 13px;
+		margin-bottom: 5px;
+	-margin lados una sola linea-
+		margin: 10px 13px 5px 15px; 
+	*/
+	margin: 10px;
+
+	border: 2px solid red;
+
+
+}
 
 body{
 	font-family: 'Allerta', sans-serif; /*google font allerta*/
