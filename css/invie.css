@@ -84,11 +84,38 @@ body{
 	margin-left: 30px;
 }
 
-.logotipo{
+.logotipo {
 	display: inline-block;
 }
 /*----------------*/
-.contenedor{
+.contenedor {
 	width: 800px;
 	margin: auto;
+}
+
+.guitarra {
+	margin: 10px;
+	padding: 10px; /*borde inerior*/
+	overflow: hidden;
+	border: 1px solid #1F313C;
+}
+
+.guitarra ol{
+	padding: 0;
+}
+
+.derecha {
+	float: right;
+}
+
+.izquierda {
+	float: left;
+}
+
+.contenedor-guitarra-a{
+	padding-left: 20px;
+}
+
+.contenedor-guitarra-b{
+	margin-left: 370px; 
 }
