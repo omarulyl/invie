@@ -100,6 +100,7 @@ body{
 	padding: 10px; /*borde inerior*/
 /*	overflow: hidden;*/	
 	border: 1px solid #1F313C;
+	border-radius: 8px;
 }
 
 .guitarra ol{
@@ -128,4 +129,12 @@ body{
 
 .header {
   position: relative;
+}
+
+button {
+	border-radius: 5px;
+	border: none;
+	background: #fd324e;
+	color: white;
+	padding: 7px;
 }
