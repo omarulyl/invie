@@ -81,6 +81,13 @@ body{
     right: 0;
 }
 
+.menu li:before { /* la indexacion se hace de manera correcta */
+	content: '•';
+	font-size: 30px;
+	line-height: 20px;
+	color: blue;
+}
+
 .menu li{
 	display: inline-block;
 	margin-left: 30px;
