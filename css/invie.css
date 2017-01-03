@@ -201,3 +201,27 @@ body{
 .sexo{
 	margin-top: 10px;
 }
+
+table{ /*se pone css a la etiqueta por que solo contamos con solo una tabla y no varias*/
+	width: 100%; /*distibuye el contenido al mismo tamaño que el padre (tamaño 800px)*/
+}
+
+th{
+	background: #273b47;
+	color: white;
+	padding: 10px 20px;
+	text-align: left;
+}
+
+/*th{
+	padding: 10px;
+}*/
+
+td{
+	padding:20px;
+}
+
+table, td, th{ /*agrega bordes dentro de la tabla*/ 
+	border: 1px solid #273b47;
+	border-collapse: collapse; /*junta los bordes
+}*/
