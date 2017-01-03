@@ -131,7 +131,7 @@ body{
   position: relative;
 }
 
-button {
+.button {
 	border-radius: 5px;
 	border: none;
 	background: #fd324e;
@@ -142,6 +142,18 @@ button {
 .footer{
 	background: #273b47;
 
+}
+
+.footer .contenedor{
+	display: flex; /*acomoda a los hijo o cajas en vertical*/
+	justify-content: space-between; /*ingresa un espacio entre hijos o cajas*/
+}
+
+.contacto{
+	display: flex;/*acomoda a los hijo o cajas en vertical*/
+	width: 300px; /*se asigna un tamaño a la caja*/ 
+	flex-wrap: wrap; /*baja los elementos*/
+	align-items: center; /*evita que el contenido se distorcione*/
 }
 
 .contacto img{
@@ -155,4 +167,37 @@ button {
 .contacto a{
 	color: white;
 	text-decoration: none;
+	margin: 10px 10px 10px 0;
+}
+
+.formulario{
+	display: flex;
+	width: 400px;
+	color: white;
+	padding: 50px 10px;
+}
+
+.col1, .col2{ /*estilos iguales a dos clases diferentes*/
+	display: flex;
+	flex-direction: column; /*distibuye los elementos por el tamaño de la columna*/
+}
+
+.col1{
+	margin-right: 15px;
+}
+
+.col2{
+	align-items: flex-start;
+}
+
+.intereses label{
+	font-size: 12px;
+}
+
+.formulario label, .sexo, .intereses{
+	margin-bottom: 10px;
+}
+
+.sexo{
+	margin-top: 10px;
 }
